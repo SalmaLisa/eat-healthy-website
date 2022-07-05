@@ -35,7 +35,7 @@
     background-image: url(images/Frame\ 57.jpg);
     background-repeat: no-repeat;
     background-size:100vw;
-    height: 1400px;
+    height: 645px;
   }
   .link-button{
     text-decoration: none;
@@ -51,4 +51,138 @@
     
     height: 616px;
     margin-left: -228px;
+  }
+/* ====================================== about me section ==========================================*/
+  .about-me{
+    display: flex;
+    padding-left: 80px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  .second-section{
+    background-image: linear-gradient(180deg,#98D5FC,#EBF8FF);
+  }
+  .img-area{
+    width: 50%;
+    
+  }
+  .img-area img{
+    width: 50%;
+    padding-left: 80px;
+  }
+  .info-area{
+    width: 50%;
+    margin-top: 90px;
+  }
+  .info-area h1{
+    font-size: 50px;
+    margin-bottom:10px;
+    font-weight:bolder;
+    color: #464444;
+    
+  }
+  .info-area p{
+    font-weight: 100;
+    color: #808080;
+    width: 80%;
+    line-height: 1.5em;
+    margin-top: 50px;
+  }
+  /*=================================== recipe section =====================================*/
+  .last-section{
+    
+  }
+  .last-section> h2{
+    font-size: 40px;
+    margin-bottom:10px;
+    margin-top: 60px;
+    font-weight:bolder;
+    color: #464444;
+    text-align: center;
+  }
+  .last-section>  p{
+    font-weight: 100;
+    color: #808080;
+    width: 45%;
+    line-height: 1.5em;
+    margin: 30px auto;
+    text-align: center;
+  }
+  .recipe-area{
+    display: flex;
+  }
+  .rec{
+    width: 40%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px #ccc;
+   
+  }
+  .rec img{
+    width: 100%;
+    height: 70%;
+    border-radius: 20px;
+  }
+  #rec-sec1{
+    margin-left: 5%;
+    margin-right: 2.5%;
+  }
+  #rec-sec2{
+    margin-left: 2.5%;
+    margin-right: 5%;
+  }
+  .rec h2{
+    font-size: 30px;
+    margin-bottom:10px;
+    font-weight:bolder;
+    color: #464444;
+    margin-left: 20px;
+    
+  }
+  .rec  p{
+    font-weight: 100;
+    color: #808080;
+    width:95%;
+    line-height: 1.5em;
+    margin-left: 20px;
+    
+  }
+  .social-media{
+    display: flex;
+    width: 90%;
+    margin: 70px auto;
+    box-shadow: 0px 0px 40px #ccc;
+    border-radius: 20px;
+  }
+  .followers{
+    width: 30%;
+    text-align: center;
+    margin:3% 5%;
+  }
+  .followers h1{
+    font-size: 40px;
+    margin: 0;
+    color: #464444;
+  }
+  .followers p{
+    margin-top: 20px;
+    font-style: italic;
+    color: #808080;
+  }
+  footer{
+    background-image:linear-gradient(50deg,#98D5FC,#EBF8FF);
+    padding-bottom: 50px;
+    padding-top: 20px;
+  }
+  footer h2{
+    font-size: 30px;
+    margin-bottom:10px;
+    font-weight:bolder;
+    color: #464444;
+    text-align: center;
+  }
+  footer p{
+    font-weight: 100;
+    color: #808080;
+    text-align: center;
   }
